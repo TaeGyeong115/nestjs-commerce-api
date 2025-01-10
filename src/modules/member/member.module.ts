@@ -1,6 +1,6 @@
 import { Module } from '@nestjs/common';
-import { MemberService } from './interface/member.service';
-import { MemberResolver } from './interface/member.resolver';
+import { MemberService } from './member.service';
+import { MemberResolver } from './member.resolver';
 
 @Module({
   providers: [MemberService, MemberResolver],
